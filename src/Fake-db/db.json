@@ -1,0 +1,87 @@
+{
+  "pengguna": [
+    {
+      "id": 1,
+      "username": "test",
+      "email": "ane@gmail.com",
+      "password": "password"
+    },
+    {
+      "username": "a",
+      "email": "Prosigmaka@gmail.com",
+      "password": "a",
+      "id": 2
+    },
+    {
+      "id": 3
+    },
+    {
+      "username": "ab",
+      "email": "Prosigmaka@gmail.com",
+      "password": "ab",
+      "id": 4
+    }
+  ],
+  "candidate": [
+    {
+      "nama": "Aldy Gunawan",
+      "jenisKelamin": "Laki-laki",
+      "tempatLahir": "sa",
+      "tanggalLahir": "2021-04-24",
+      "alamat": "Gunung",
+      "email": "aaaa@gmail.com",
+      "noHp": "+6282838383883",
+      "id": 1
+    }
+  ],
+  "recipes": [
+    {
+      "id": 1,
+      "tittle": "Soto",
+      "content": "Sample text, bebas diisi apa saja yang baik-baik sesuka hati anda",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "id": 3,
+      "tittle": "Sate",
+      "content": "Sample text, bebas diisi apa saja yang baik-baik sesuka hati anda",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "id": 4,
+      "tittle": "Rendang",
+      "content": "Sample text, bebas diisi apa saja yang baik-baik sesuka hati anda",
+      "image": "https://source.unsplash.com/random"
+    },
+    {
+      "tittle": "Lotek",
+      "content": "Lotek makanan sunda",
+      "image": "https://www.masakapahariini.com/wp-content/uploads/2021/02/Lotek-Bandung-Sederhana-780x440.jpg",
+      "id": 8
+    },
+    {
+      "tittle": "Nasi Liwet",
+      "content": "Nasi Liwet adalah salah satu jenis makanan khas Solo. Nasi Liwet memiliki cita rasa gurih dan lezat karena dimasak dengan kaldu ayam.",
+      "image": "https://www.masakapahariini.com/wp-content/uploads/2021/07/Nasi-Liwet-Sunda-1024x768.jpg",
+      "id": 9
+    },
+    {
+      "tittle": "Empal Gentong",
+      "content": "Empal gentong merupakan makanan khas Cirebon. Empal gentong rasanya sangat enak. Lebih enak dinikmati saat masih hangat.",
+      "image": "https://asset.kompas.com/crops/0AB-2YAv8A16qbojv0WNNZtK6ls=/0x365:800x898/750x500/data/photo/2021/05/19/60a4b3c10f3d5.jpg",
+      "id": 11
+    },
+    {
+      "tittle": "Pempek",
+      "content": "Makanan khas Palembang, biasanya disajikan bersama cuko.",
+      "image": "https://statics.indozone.id/content/2020/10/23/WYsvDbE/resep-pempek-palembang-dengan-kuah-cuko20_700.jpg",
+      "id": 12
+    },
+    {
+      "tittle": "Ketoprak",
+      "content": "Makanan khas Betawi",
+      "image": "https://piknikdong.com/wp-content/uploads/2020/09/Resep-Ketoprak-Jakarta-Enak.jpg",
+      "id": 13
+    }
+  ]
+}
