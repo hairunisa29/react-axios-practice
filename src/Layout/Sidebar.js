@@ -2,9 +2,9 @@ import * as React from 'react';
 import LayoutStyles from './LayoutStyle'
 import clsx from 'clsx';
 import { mainList } from './sidebarList';
-import {Divider, Drawer, IconButton, List, ThemeProvider} from "@mui/material";
+import {Divider, IconButton, List, ThemeProvider} from "@mui/material";
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
-
+import MuiDrawer from '@mui/material/Drawer';
 
 
 const Sidebar = ({ open, toggleDrawer }) => {
@@ -12,12 +12,12 @@ const Sidebar = ({ open, toggleDrawer }) => {
   // console.log(open, toggleDrawer)
   return (
     <>
-      <Drawer
+      <MuiDrawer
         variant="permanent"
         classes={{
           paper: clsx(classes.drawerPaper, !open && classes.drawerPaperClose),
         }}
-        // open={!open}
+        open={open}
       >
         <div >
           <IconButton onClick={toggleDrawer}>
@@ -26,8 +26,9 @@ const Sidebar = ({ open, toggleDrawer }) => {
         </div>
         <Divider />
         {/* List isi sidebar ada di komponen sidebarList*/}
-        <List>{mainList}</List>
-      </Drawer>
+        {/* <List>{mainList}</List> */}
+        {mainList}
+      </MuiDrawer>
     </>
   );
 };

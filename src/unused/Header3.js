@@ -53,8 +53,8 @@ const Header = ({ open, toggleDrawer }) => {
   return (
     <>
       <AppBar
-        position="absolute"
-        // className={clsx(classes.appBar, open && classes.appBarShift)}
+        position="fixed"
+        className={clsx(classes.appBar, open && classes.appBarShift)}
       >
         <Toolbar className={classes.toolbar}>
           <IconButton
@@ -62,7 +62,7 @@ const Header = ({ open, toggleDrawer }) => {
             color="inherit"
             aria-label="open drawer"
             onClick={toggleDrawer}
-            // className={clsx(classes.menuButton, open && classes.menuButtonHidden)}
+            className={clsx(classes.menuButton, open && classes.menuButtonHidden)}
           >
             <MenuIcon />
           </IconButton>

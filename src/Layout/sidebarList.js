@@ -33,7 +33,7 @@ ListItemLink.propTypes = {
 
 export const mainList = (
   <div>
-    <List aria-label="main mailbox folders">
+    <List>
       <ListItemLink to="/recipes" primary="Recipes" icon={<MenuBookIcon />} />
       <ListItemLink to="/rother" primary="Customize" icon={<ShoppingCartIcon/>}/>
     </List>
