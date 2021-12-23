@@ -42,12 +42,6 @@
       "image": "https://source.unsplash.com/random"
     },
     {
-      "id": 3,
-      "tittle": "Sate",
-      "content": "Sample text, bebas diisi apa saja yang baik-baik sesuka hati anda",
-      "image": "https://source.unsplash.com/random"
-    },
-    {
       "id": 4,
       "tittle": "Rendang",
       "content": "Sample text, bebas diisi apa saja yang baik-baik sesuka hati anda",
@@ -82,6 +76,12 @@
       "content": "Makanan khas Betawi",
       "image": "https://piknikdong.com/wp-content/uploads/2020/09/Resep-Ketoprak-Jakarta-Enak.jpg",
       "id": 13
+    },
+    {
+      "tittle": "Sate Madura",
+      "content": "Sate khas Madura",
+      "image": "https://backpanel.kemlu.go.id/PublishingImages/CC%20sate%20ayam%20madura/SM3.JPG",
+      "id": 14
     }
   ]
 }
